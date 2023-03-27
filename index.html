@@ -9,31 +9,58 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Summary Card</title>
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles/normalize.css" />
+    <!-- Font Family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize link -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <main class="main-content">
-      <h1>Order Summary</h1>
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <div class="price">
-        <img src="images/icon-music.svg" alt="music icon" />
-        <div class="price-info">
-          <h2>Annual Plan</h2>
-          <p>$59.99/year</p>
+    <main>
+      <article class="card">
+        <div class="card-img">
+          <img
+            src="./images/illustration-hero.svg"
+            alt="illustration of a girl listening to music"
+          />
         </div>
-        <a href="#">Change</a>
-      </div>
-      <button class="btn">Proceed to Payment</button>
-      <button class="btn">Cancel Order</button>
+        <div class="card-body">
+          <h1 class="title">Order Summary</h1>
+          <p class="txt">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="cost">
+            <div class="cost-left">
+              <img src="./images/icon-music.svg" alt="music icon" />
+              <div class="cost-details">
+                <h2>Annual Plan</h2>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <div class="cost-right">
+              <a href="#" class="link">Change</a>
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn">Proceed to Payment</button
+          ><button class="btn">Cancel Order</button>
+        </div>
+      </article>
     </main>
     <footer class="attribution">
       <p>
