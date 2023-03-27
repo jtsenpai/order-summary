@@ -1,0 +1,47 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desatured-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: url("/images/pattern-background-desktop.svg");
+}
+
+main {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+.hero {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px 20px 0 0;
+}
+
+.heads {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/*
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 */
