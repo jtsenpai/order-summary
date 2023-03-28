@@ -16,53 +16,42 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <!-- Font Family link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Normalize link -->
-    <link rel="stylesheet" href="./styles/normalize.css" />
     <!-- Custom stylesheet -->
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main>
       <article class="card">
-        <div class="card-img">
+        <div class="hero">
           <img
             src="./images/illustration-hero.svg"
-            alt="illustration of a girl listening to music"
+            alt="an illustration of a girl listening to music"
           />
         </div>
-        <div class="card-body">
-          <h1 class="title">Order Summary</h1>
-          <p class="txt">
+        <div class="content">
+          <h2 class="title">Order Summary</h2>
+          <p class="subtitle">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
           <div class="cost">
             <div class="cost-left">
-              <img src="./images/icon-music.svg" alt="music icon" />
-              <div class="cost-details">
-                <h2>Annual Plan</h2>
+              <img src="images/icon-music.svg" alt="a music icon" />
+              <div>
+                <h5>Annual Plan</h5>
                 <p>$59.99/year</p>
               </div>
             </div>
-            <div class="cost-right">
-              <a href="#" class="link">Change</a>
-            </div>
+            <a href="#">Change</a>
           </div>
-        </div>
-        <div class="btn-wrapper">
-          <button class="btn">Proceed to Payment</button
-          ><button class="btn">Cancel Order</button>
+          <div class="btn-wrapper">
+            <button class="btn payment">Proceed to Payment</button
+            ><button class="btn cancel">Cancel Order</button>
+          </div>
         </div>
       </article>
     </main>
-    <footer class="attribution">
+    <!-- <footer class="attribution">
       <p>
         Challenge by
         <a
@@ -75,6 +64,6 @@
       <p>
         Coded by <a href="https://twitter.com/jtsenpai002">Jesutoni Odufeso</a>
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>
