@@ -41,12 +41,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-
 ### What I learned
 
 Not really. Just trying to practice what I've learnt over the years
-
-
 
 ## Author
 
